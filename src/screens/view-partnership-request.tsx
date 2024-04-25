@@ -73,11 +73,7 @@ const form3Fields = [
 
 export default function ViewPartnershipRequest() {
 	return (
-		<main
-			className={
-				"w-full p-5 lg:px-10 lg:py-20 space-y-10 lg:space-y-20 max-w-2xl mx-auto"
-			}
-		>
+		<main className='w-full p-5 lg:px-10 lg:py-20 space-y-10 lg:space-y-20 max-w-2xl mx-auto'>
 			<div className='space-y-2'>
 				<h2 className='font-medium text-3xl lg:text-5xl text-[#2255A0]'>
 					View partner application

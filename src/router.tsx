@@ -5,6 +5,7 @@ import AppLayout from "./layouts/app-layout";
 import Partnerships from "./screens/partnerships";
 import PartnershipRequest from "./screens/partnership-request";
 import ViewPartnershipRequest from "./screens/view-partnership-request";
+import PartnershipsRequested from "./screens/partnerships-requested";
 
 const router = createBrowserRouter([
 	{
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
 			{
 				path: "/partnership-request/:id",
 				element: <ViewPartnershipRequest />
+			},
+			{
+				path: "/partnerships-requested",
+				element: <PartnershipsRequested />
 			},
 			{
 				path: "/about",
